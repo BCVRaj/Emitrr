@@ -39,9 +39,10 @@ Emitrr/
 │   ├── ner_extractor.py               # Local medical NER extraction
 │   └── llm_extractor.py               # Hybrid: DistilBERT + Gemini
 │
+├── app.py                              # Streamlit web interface
 ├── schemas.py                          # JSON field definitions
 ├── config.py                           # All settings & patterns
-├── main.py                             # Pipeline orchestrator
+├── main.py                             # CLI pipeline orchestrator
 ├── requirements.txt
 ├── .env                                # API key (DON'T commit!)
 ├── .gitignore
@@ -49,6 +50,21 @@ Emitrr/
 ```
 
 ## 🚀 Quick Start
+
+### Two Ways to Use:
+
+**Option 1: Web Interface (Recommended)** 🌐
+- User-friendly GUI
+- Upload files via browser
+- Visual results display
+- Download buttons
+
+**Option 2: Command Line** 💻
+- Fast for automation
+- Script integration
+- Batch processing
+
+---
 
 ### 1. Clone/Download Project
 
@@ -95,9 +111,72 @@ Patient: Thank you, doctor. I feel better knowing what it is.
 
 ### 5. Run Pipeline
 
+**Option A: Web Interface (Streamlit)**
+
+```bash
+streamlit run app.py
+```
+
+Opens in browser at `http://localhost:8501`
+
+**Features:**
+- 📁 Upload transcript files via drag-and-drop
+- 👀 Preview transcript before analysis
+- 🚀 One-click analysis
+- 📊 Interactive results display with tabs
+- 💾 Download JSON outputs
+- 🎨 Clean, professional UI
+
+**Option B: Command Line**
+
 ```bash
 python main.py data/input/transcript.txt
 ```
+
+Outputs saved to `data/output/` with timestamps.
+
+---
+
+## 🌐 Streamlit Web Interface
+
+### Features:
+
+**1. File Upload**
+- Drag-and-drop or browse for `.txt` files
+- Instant file preview
+- Character count display
+
+**2. Analysis Dashboard**
+- Real-time progress indicators
+- Step-by-step processing feedback
+- Error handling with clear messages
+
+**3. Results Display**
+- **Medical Summary Tab**: Patient name, symptoms, diagnosis, treatment, prognosis
+- **Sentiment & Intent Tab**: Emotional state analysis (DistilBERT) + Intent detection (Gemini)
+- **Entities Tab**: Categorized medical entities with confidence scores, interactive table
+- **SOAP Note Tab**: Expandable sections (Subjective, Objective, Assessment, Plan)
+- **Downloads Tab**: Individual JSON downloads or complete results
+
+**4. User Experience**
+- Clean, minimal interface
+- No technical knowledge required
+- Instant visual feedback
+- Professional presentation
+
+### Running the Web Interface:
+
+```bash
+# Start the server
+streamlit run app.py
+
+# Access in browser
+# http://localhost:8501
+```
+
+The interface automatically uses the same backend pipeline as the CLI, ensuring consistent results.
+
+---
 
 ## 📊 Output Files
 
@@ -258,6 +337,15 @@ cat pipeline.log
 - Config-driven: no hardcoded values
 - Modular: clean separation of concerns
 - Hybrid AI: local models + cloud LLM for optimal performance
+- **Dual Interface**: Web UI (Streamlit) + Command Line
+
+### Web Interface (Streamlit)
+- User-friendly GUI
+- Drag-and-drop file upload
+- Real-time progress tracking
+- Interactive results display
+- One-click JSON downloads
+- No technical knowledge required
 
 ### Entity Extraction
 - Local biomedical NER model
@@ -331,6 +419,8 @@ In `config.py`:
 - `google-generativeai>=0.3.0` - Gemini API
 - `python-dotenv>=1.0.0` - Environment variables
 - `numpy>=1.24.0` - Numerical operations
+- `pandas>=2.0.0` - Data manipulation
+- `streamlit>=1.31.0` - Web interface
 
 ## Requirements
 
