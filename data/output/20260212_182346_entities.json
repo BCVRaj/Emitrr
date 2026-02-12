@@ -1,0 +1,209 @@
+{
+  "all_entities": [
+    {
+      "text": "discomfort",
+      "type": "Sign_symptom",
+      "confidence": 1.0,
+      "start": 137,
+      "end": 147
+    },
+    {
+      "text": "12 : 30 in",
+      "type": "Time",
+      "confidence": 0.9520000219345093,
+      "start": 320,
+      "end": 328
+    },
+    {
+      "text": "pain",
+      "type": "Sign_symptom",
+      "confidence": 1.0,
+      "start": 807,
+      "end": 811
+    },
+    {
+      "text": "neck",
+      "type": "Biological_structure",
+      "confidence": 1.0,
+      "start": 818,
+      "end": 822
+    },
+    {
+      "text": "back",
+      "type": "Biological_structure",
+      "confidence": 0.949999988079071,
+      "start": 827,
+      "end": 831
+    },
+    {
+      "text": "weeks",
+      "type": "Duration",
+      "confidence": 0.9679999947547913,
+      "start": 1183,
+      "end": 1188
+    },
+    {
+      "text": "improving",
+      "type": "Lab_value",
+      "confidence": 0.953000009059906,
+      "start": 1312,
+      "end": 1321
+    },
+    {
+      "text": "physiotherapy",
+      "type": "Therapeutic_procedure",
+      "confidence": 0.9819999933242798,
+      "start": 1374,
+      "end": 1387
+    },
+    {
+      "text": "stiff",
+      "type": "Sign_symptom",
+      "confidence": 1.0,
+      "start": 1405,
+      "end": 1410
+    },
+    {
+      "text": "##ache",
+      "type": "Sign_symptom",
+      "confidence": 0.9959999918937683,
+      "start": 1559,
+      "end": 1563
+    },
+    {
+      "text": "anxiety",
+      "type": "Sign_symptom",
+      "confidence": 1.0,
+      "start": 1676,
+      "end": 1683
+    },
+    {
+      "text": "nervous",
+      "type": "Sign_symptom",
+      "confidence": 0.9990000128746033,
+      "start": 1775,
+      "end": 1782
+    },
+    {
+      "text": "emotional issues",
+      "type": "Sign_symptom",
+      "confidence": 0.949999988079071,
+      "start": 1814,
+      "end": 1830
+    }
+  ],
+  "categorized": {
+    "symptoms": [
+      {
+        "text": "discomfort",
+        "type": "Sign_symptom",
+        "confidence": 1.0,
+        "start": 137,
+        "end": 147
+      },
+      {
+        "text": "pain",
+        "type": "Sign_symptom",
+        "confidence": 1.0,
+        "start": 807,
+        "end": 811
+      },
+      {
+        "text": "stiff",
+        "type": "Sign_symptom",
+        "confidence": 1.0,
+        "start": 1405,
+        "end": 1410
+      },
+      {
+        "text": "##ache",
+        "type": "Sign_symptom",
+        "confidence": 0.9959999918937683,
+        "start": 1559,
+        "end": 1563
+      },
+      {
+        "text": "anxiety",
+        "type": "Sign_symptom",
+        "confidence": 1.0,
+        "start": 1676,
+        "end": 1683
+      },
+      {
+        "text": "nervous",
+        "type": "Sign_symptom",
+        "confidence": 0.9990000128746033,
+        "start": 1775,
+        "end": 1782
+      },
+      {
+        "text": "emotional issues",
+        "type": "Sign_symptom",
+        "confidence": 0.949999988079071,
+        "start": 1814,
+        "end": 1830
+      }
+    ],
+    "diseases": [],
+    "treatments": [
+      {
+        "text": "physiotherapy",
+        "type": "Therapeutic_procedure",
+        "confidence": 0.9819999933242798,
+        "start": 1374,
+        "end": 1387
+      }
+    ],
+    "anatomy": [],
+    "medications": [],
+    "other": [
+      {
+        "text": "12 : 30 in",
+        "type": "Time",
+        "confidence": 0.9520000219345093,
+        "start": 320,
+        "end": 328
+      },
+      {
+        "text": "neck",
+        "type": "Biological_structure",
+        "confidence": 1.0,
+        "start": 818,
+        "end": 822
+      },
+      {
+        "text": "back",
+        "type": "Biological_structure",
+        "confidence": 0.949999988079071,
+        "start": 827,
+        "end": 831
+      },
+      {
+        "text": "weeks",
+        "type": "Duration",
+        "confidence": 0.9679999947547913,
+        "start": 1183,
+        "end": 1188
+      },
+      {
+        "text": "improving",
+        "type": "Lab_value",
+        "confidence": 0.953000009059906,
+        "start": 1312,
+        "end": 1321
+      }
+    ]
+  },
+  "statistics": {
+    "total": 13,
+    "by_category": {
+      "symptoms": 7,
+      "diseases": 0,
+      "treatments": 1,
+      "anatomy": 0,
+      "medications": 0,
+      "other": 5
+    },
+    "average_confidence": 0.981
+  }
+}

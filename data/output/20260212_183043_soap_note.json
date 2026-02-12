@@ -1,0 +1,18 @@
+{
+  "Subjective": {
+    "Chief_Complaint": "Patient reports occasional discomfort and backaches following a car accident.",
+    "History_of_Present_Illness": "Ms. Jones was involved in a car accident on September 1st, around 12:30 PM. She was rear-ended while stopped in traffic, which pushed her car into the vehicle in front. She was wearing her seatbelt. Immediately after the accident, she hit her head on the steering wheel and experienced immediate pain in her neck and back. She sought medical attention at Moss Bank Accident and Emergency, where she was diagnosed with a whiplash injury; no X-rays were performed. The first four weeks post-accident were characterized by severe neck and back pain, difficulty sleeping, and regular painkiller use. Symptoms improved after this period, and she underwent ten sessions of physiotherapy for stiffness and discomfort. Currently, she experiences occasional backaches, which are significantly less severe than initially. She denies any anxiety while driving, difficulty concentrating, or emotional issues related to the accident. She took one week off work but has since returned to her usual routine with no impact on her daily life or hobbies."
+  },
+  "Objective": {
+    "Physical_Exam": "Physical examination revealed full range of movement in the neck and back. No tenderness or signs of lasting damage were noted. Muscles and spine appeared to be in good condition.",
+    "Observations": "Overall, the patient's physical presentation looks good, indicating positive recovery progress."
+  },
+  "Assessment": {
+    "Diagnosis": "Whiplash injury, resolving.",
+    "Severity": "Mild"
+  },
+  "Plan": {
+    "Treatment": "Continue with current recovery trajectory. No new interventions or medications are deemed necessary at this time, given the significant improvement and positive physical exam findings.",
+    "Follow-Up": "Patient is expected to make a full recovery within six months of the accident, with no anticipated long-term impact on work or daily life. Advised to return for a follow-up if symptoms worsen or new concerns arise."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Subjective": {
+    "Chief_Complaint": "Occasional backaches and some discomfort now and then, following a car accident.",
+    "History_of_Present_Illness": "Ms. Jones, a patient involved in a car accident on September 1st, around 12:30 PM, reports being hit from behind while stopped in traffic, which pushed her car into the vehicle in front. She was wearing her seatbelt. Immediately after the accident, she experienced shock, hit her head on the steering wheel, and developed immediate pain in her neck and back. She sought medical attention at Moss Bank Accident and Emergency, where she was diagnosed with a whiplash injury, received advice, and was discharged without X-rays. The first four weeks post-accident were characterized by severe neck and back pain, difficulty sleeping, and regular painkiller use. Symptoms began improving after this period, and she underwent ten sessions of physiotherapy to address stiffness and discomfort. Currently, she experiences occasional backaches, which are significantly less severe than initially. She denies any anxiety while driving, difficulty concentrating, or emotional issues related to the accident. She took one week off work and has since returned to her usual routine, reporting no significant impact on her daily life or hobbies."
+  },
+  "Objective": {
+    "Physical_Exam": "Physical examination revealed full range of movement in the neck and back. No tenderness or signs of lasting damage were noted. Muscles and spine appeared to be in good condition.",
+    "Observations": "Patient is alert and oriented, conversant, and appears to be recovering well from the initial injury."
+  },
+  "Assessment": {
+    "Diagnosis": "Whiplash injury, resolving.",
+    "Severity": "Mild (currently, with significant improvement from initial severe symptoms)."
+  },
+  "Plan": {
+    "Treatment": "Continue current activity level. No further specific treatment interventions are deemed necessary at this time, given the positive recovery trajectory.",
+    "Follow-Up": "Patient advised to return for follow-up if symptoms change or worsen. Anticipated full recovery within six months of the accident, with no foreseen long-term impact on work or daily life."
+  }
+}

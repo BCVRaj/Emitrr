@@ -1,0 +1,21 @@
+{
+  "Patient_Name": "Ms. Jones",
+  "Symptoms": [
+    "discomfort",
+    "head impact",
+    "neck pain",
+    "back pain",
+    "trouble sleeping",
+    "stiffness",
+    "occasional backaches"
+  ],
+  "Diagnosis": "Whiplash injury",
+  "Treatment": [
+    "medical attention at Moss Bank Accident and Emergency",
+    "advice",
+    "painkillers",
+    "physiotherapy (10 sessions)"
+  ],
+  "Current_Status": "Doing better with occasional backaches and discomfort, but no constant pain. Full range of movement in neck and back, no tenderness or lasting damage. Back to usual routine, no emotional issues or driving anxiety.",
+  "Prognosis": "Expected to make a full recovery within six months of the accident, with no signs of long-term damage, degeneration, or impact on work or daily life."
+}

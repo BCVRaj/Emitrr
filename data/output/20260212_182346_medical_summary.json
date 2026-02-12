@@ -1,0 +1,19 @@
+{
+  "Patient_Name": "Ms. Jones",
+  "Symptoms": [
+    "discomfort",
+    "neck pain",
+    "back pain",
+    "trouble sleeping",
+    "stiffness",
+    "occasional backaches"
+  ],
+  "Diagnosis": "Whiplash injury",
+  "Treatment": [
+    "advice",
+    "painkillers",
+    "physiotherapy"
+  ],
+  "Current_Status": "Improved, occasional backaches, full range of movement in neck and back, no tenderness or lasting damage.",
+  "Prognosis": "Full recovery expected within six months of the accident, no signs of long-term damage or impact on work or daily life."
+}
